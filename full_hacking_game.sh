@@ -50,8 +50,8 @@ menu_principal() {
     echo -e "${YELLOW}1. Commencer une nouvelle partie"
     echo "2. Continuer la partie"
     echo "3. Instructions"
-    echo "4. Quitter${NC}"
-    echo ""
+    echo "4. Quitter"
+    echo -e "${NC}"
     read -p "Choisissez une option (1-4): " choix
 
     case $choix in
